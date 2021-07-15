@@ -25,21 +25,21 @@ public class MainActivity extends AppCompatActivity {
         btn4k.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                handlerIntentWebView("https://www.pexels.com/search/4k%20wallpaper/");
+                handlerIntentWebView("https://www.24h.com.vn/");
             }
         });
 
         btnHd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                handlerIntentWebView("https://www.pexels.com/search/hd%20wallpaper/");
+                handlerIntentWebView("https://baomoi.com/");
             }
         });
 
         btnCool.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                handlerIntentWebView("https://www.pexels.com/search/cool%20wallpaper/");
+                handlerIntentWebView("https://thanhnien.vn/");
             }
         });
     }
