@@ -25,21 +25,21 @@ public class MainActivity extends AppCompatActivity {
         btn4k.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                handlerIntentWebView("https://www.dota2.com/home");
+                handlerIntentWebView("https://shopee.vn/");
             }
         });
 
         btnHd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                handlerIntentWebView("https://lienminh.garena.vn/");
+                handlerIntentWebView("https://www.lazada.vn/");
             }
         });
 
         btnCool.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                handlerIntentWebView("https://pubgm.zing.vn/");
+                handlerIntentWebView("https://tiki.vn/");
             }
         });
     }
